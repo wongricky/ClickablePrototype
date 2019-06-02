@@ -1,0 +1,129 @@
+@mainpurple: rgb(61, 11, 68);
+@subpurple:rgb(255, 249, 254);
+@contentpink: rgb(255, 209, 229);
+
+// *{
+//     outline: 1px dotted red;
+// }
+
+.navbar{
+    background-color: @mainpurple;
+    .navbar-brand{
+        padding: 0px 50px 0px 10px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        font-size: 20pt;
+    }
+}
+
+.main{
+    padding-bottom: 40px;
+}
+
+.jumbotron{
+    background: none;
+
+    .container{
+        display: block;
+        img{
+            display: block;
+        }
+        h1{
+            display: block;
+        }
+    } // End of .container 
+}
+
+.row{
+    .col-md-4{
+        img{
+            opacity: 0.6;
+            transition: 0.3s;
+            margin: 15px 0px 15px 0px;
+        }
+        img:hover{opacity:1;}
+        p{
+            text-align: center;
+
+        }
+        h2{
+            text-align: center;
+        }
+        .buttonwrapper{
+            button{
+                border: none;
+                color: black;
+            }
+        }
+    }
+}
+
+.subbody{
+    .container{
+        text-align: center;
+    }
+}
+
+.footer{
+    p{
+        text-align: center;
+        color:black;
+        font-size: 8pt;
+    };
+}
+
+.shopping{
+    .row{
+        .col-3{
+            border: 1.2px solid @mainpurple;
+            border-radius: 5px;
+            padding: 17px;
+            outline-offset: 5px;
+            max-height: 325px;
+            ul li span{
+                color: black;              
+            }
+ 
+        }
+        .col-9{
+            text-align:center;
+            position: relative;
+
+            padding: 10px 0px 0px 20px;
+            img{
+                opacity: 0.4;
+                transition: 0.3s;
+            }
+            img:hover{opacity: 1;}
+
+            .centered {
+                opacity: 0.6;
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: block;
+                color: @mainpurple;
+            }
+            .centered:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+.checkout{
+    button{
+        margin-right: 20px;
+    }
+}
+
+
+  
+
+
+  
+
+  
